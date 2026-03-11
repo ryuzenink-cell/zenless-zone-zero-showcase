@@ -4,6 +4,21 @@
   <img src="assets/preview/01-preview.png" width="800">
 </p>
 
+---
+
+## 🌐 Live Demo
+
+Veja o projeto funcionando online:
+
+🔗 **Acesse aqui:**  
+https://ryuzenink-cell.github.io/zenless-zone-zero-showcase/
+
+<p align="center">
+  <img src="assets/images/preview/preview-zzz.png" width="900" alt="Preview do projeto Zenless Zone Zero Showcase">
+</p>
+
+---
+
 Uma vitrine virtual inspirada em **Zenless Zone Zero**, desenvolvida com **HTML, CSS e JavaScript puro**, com foco em direção de arte, layout premium e apresentação visual de personagens em uma experiência de **seção única**.
 
 Este projeto foi criado como peça de portfólio para explorar:
