@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZZZ Showcase | Fanmade Virtual Storefront</title>
+  <meta
+    name="description"
+    content="Fanmade premium virtual showcase inspired by Zenless Zone Zero with a single spectacular hero section."
+  />
+  <link rel="icon" type="image/webp" href="assets/icon/favicon.webp">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/character.css">
+</head>
+<body>
+  <main class="zzz-showcase">
+    <section class="hero" id="home" aria-label="Vitrine virtual do jogo ZZZ">
+      
+      <!-- Background Layers -->
+      <div class="hero__bg">
+        <div class="hero__grid"></div>
+        <div class="hero__glow hero__glow--one"></div>
+        <div class="hero__glow hero__glow--two"></div>
+        <div class="hero__noise"></div>
+        <div class="hero__gradient"></div>
+      </div>
+
+      <!-- Floating UI Elements -->
+      <div class="hero__decor" aria-hidden="true">
+        <span class="hero__line hero__line--1"></span>
+        <span class="hero__line hero__line--2"></span>
+        <span class="hero__line hero__line--3"></span>
+
+        <div class="hero__badge hero__badge--top-left">
+          <span class="hero__badge-dot"></span>
+          <span>Fanmade Concept</span>
+        </div>
+
+        <div class="hero__badge hero__badge--top-right">
+          <span class="hero__badge-label">Status</span>
+          <strong>Ready to Deploy</strong>
+        </div>
+
+        <div class="hero__panel hero__panel--left">
+          <span class="hero__panel-label">District Signal</span>
+          <strong>New Eridu / Active</strong>
+        </div>
+
+        <div class="hero__panel hero__panel--right">
+          <span class="hero__panel-label">Combat Data</span>
+          <strong>Urban Chaos Interface</strong>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="hero__container">
+        <!-- Top Bar -->
+        <header class="hero__topbar">
+          <div class="brand">
+            <span class="brand__mark">ZZZ</span>
+            <div class="brand__text">
+              <strong>Zenless Zone Zero</strong>
+              <span>Virtual Showcase</span>
+            </div>
+          </div>
+
+          <nav class="hero__nav" aria-label="Navegação principal">
+            <a href="#home">Home</a>
+            <a href="#agents">Agents</a>
+            <a href="#city">New Eridu</a>
+          </nav>
+        </header>
+
+        <!-- Hero Grid -->
+        <div class="hero__content">
+          <!-- Copy -->
+          <div class="hero__copy">
+            <span class="hero__eyebrow">Urban Fantasy Action RPG</span>
+
+            <h1 class="hero__title">
+              Enter the
+              <span>Controlled Chaos</span>
+              of New Eridu
+            </h1>
+
+            <p class="hero__description">
+              Uma vitrine virtual premium inspirada em ZZZ, criada para transmitir
+              velocidade, estilo urbano e atmosfera futurista em uma única seção
+              impactante e cinematográfica.
+            </p>
+
+            <div class="hero__actions">
+              <a href="#explore" class="hero__button hero__button--primary">
+                Enter Showcase
+              </a>
+
+              <a href="#trailer" class="hero__button hero__button--secondary">
+                Watch Concept
+              </a>
+            </div>
+
+            <div class="hero__meta">
+              <div class="hero__meta-card">
+                <span class="hero__meta-label">Faction Focus</span>
+                <strong>Proxy Network</strong>
+              </div>
+
+              <div class="hero__meta-card">
+                <span class="hero__meta-label">Visual Tone</span>
+                <strong>Neon / Asphalt / Signal</strong>
+              </div>
+
+              <div class="hero__meta-card">
+                <span class="hero__meta-label">Experience</span>
+                <strong>One Section Only</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual Stage -->
+          <div class="hero__visual" id="agents">
+            <div class="hero__visual-frame">
+              <span class="hero__visual-tag">Featured Key Art</span>
+
+              <div class="hero__character-stack">
+                <div class="hero__shape hero__shape--back"></div>
+                <div class="hero__shape hero__shape--middle"></div>
+                <div class="hero__shape hero__shape--front"></div>
+
+                <!-- Troque o src pela arte principal que você escolher -->
+                <img src="assets/images/characters/billy-kid.png" 
+                alt="Personagem em destaque do universo ZZZ" class="character-rotation" />
+              </div>
+
+              <div class="hero__floating-card hero__floating-card--top">
+                <span class="hero__floating-label">Signal ID</span>
+                <strong>Hollow Entry Authorized</strong>
+              </div>
+
+              <div class="hero__floating-card hero__floating-card--bottom">
+                <span class="hero__floating-label">Visual Priority</span>
+                <strong>High Impact Presentation</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Strip -->
+        <div class="hero__bottom" id="city">
+          <article class="hero__info-card">
+            <span class="hero__info-index">01</span>
+            <h2>New Eridu</h2>
+            <p>
+              Uma metrópole viva, estilizada e cercada por riscos, tecnologia e
+              identidade visual fortíssima.
+            </p>
+          </article>
+
+          <article class="hero__info-card">
+            <span class="hero__info-index">02</span>
+            <h2>Fast Interface</h2>
+            <p>
+              Painéis, selos e blocos curtos transformam informação em linguagem
+              visual com presença de game UI.
+            </p>
+          </article>
+
+          <article class="hero__info-card">
+            <span class="hero__info-index">03</span>
+            <h2>Portfolio Impact</h2>
+            <p>
+              Projeto ideal para demonstrar direção de arte, hierarquia visual e
+              front-end voltado para entretenimento.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Large Background Title -->
+      <div class="hero__bg-title" aria-hidden="true">
+        ZENLESS ZONE ZERO
+      </div>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+  <script src="js/character-rotation.js"></script>
+</body>
+</html>
